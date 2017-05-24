@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kyosh.dacs.layoutthongke">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbarthongke"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#ffff"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+        <LinearLayout
+            android:background="#FFFF"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="220dp">
+            <LinearLayout
+                android:gravity="center"
+                android:layout_weight="6"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/txtmonth"
+                    android:layout_marginTop="10sp"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="20sp"
+                    android:textSize="45sp"
+                    android:text="Tháng "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/txtyear"
+                    android:textColor="@android:color/black"
+                    android:layout_marginLeft="20sp"
+                    android:textSize="30dp"
+                    android:text="Năm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="20dp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginLeft="20sp"
+                    android:textColor="@android:color/black"
+                    android:text="Tồng số tiền"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/txtmoney"
+                    android:layout_marginBottom="1sp"
+                    android:layout_marginTop="10sp"
+                    android:layout_marginLeft="20sp"
+                    android:textSize="40sp"
+                    android:textColor="@android:color/black"
+                    android:text="2.000.000  vnd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+            <ImageButton
+                android:id="@+id/btncalendar"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/ic_calendar_black_18dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="5"
+            android:layout_height="300dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+
+                <TextView
+
+                    android:background="#FFFF"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/txttonghoadon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="25dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="25sp" />
+
+                <ListView
+                    android:id="@+id/list_thongke"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20sp">
+
+                </ListView>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/shape"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="7"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:id="@+id/framcolor"
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        >
+
+                        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/profile_image"
+                            android:layout_width="@dimen/avata_item"
+                            android:layout_height="@dimen/avata_item"
+                            android:layout_gravity="center"
+                            android:src="@drawable/user"
+                            app:civ_border_color="@android:color/background_dark"
+                            app:civ_border_width="1dp" />
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="7"
+                        android:orientation="vertical"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="10dp">
+
+                        <TextView
+                            android:textColor="@android:color/black"
+                            android:id="@+id/txttenkh"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="7dp"
+                            android:text="Tên khách hàng "
+                            android:textSize="@dimen/text_size"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:textColor="@android:color/black"
+                            android:id="@+id/txtdiemdi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="5dp"
+                            android:text="Điểm đi "
+                            android:textSize="@dimen/text_sizeorigin" />
+
+                        <TextView
+                            android:textColor="@android:color/black"
+                            android:id="@+id/txtdiemden"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="5dp"
+                            android:text="điểm đến"
+                            android:textSize="@dimen/text_sizefinal" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center|right"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/txtmoney"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="5"
+                                android:gravity="center"
+                                android:text="Money"
+                                android:textColor="#ff22a96e"
+                                android:textSize="15sp"
+                                android:textStyle="bold" />
+
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:background="@drawable/shape2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="@android:color/white"
+                    android:id="@+id/txtngay"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="ngày"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:textColor="@android:color/white"
+                    android:id="@+id/txttime"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="thời gian"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

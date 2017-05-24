@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff22a96e"
+    tools:context="com.example.kyosh.dacs.themhoadon">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+
+                android:gravity="center"
+                android:layout_marginTop="5sp"
+                android:text="Thông tin khách hàng"
+                android:textColor="#FFFF"
+                android:textSize="25sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:background="#fff"
+                android:layout_marginTop="5sp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:gravity="center"
+                        android:textSize="25sp"
+                        android:textColor="@android:color/black"
+                        android:text="ID :"
+                        android:layout_weight="2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:enabled="false"
+                        android:id="@+id/txtIDaddhoadon"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp"
+                        android:layout_weight="8"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginBottom="10sp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="@android:color/black"
+                        android:gravity="center"
+                        android:textSize="25sp"
+                        android:text="Tên :"
+                        android:layout_weight="2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:enabled="false"
+                        android:id="@+id/txtTenaddhoadon"
+                        android:textColor="@android:color/black"                        android:textSize="25sp"
+                        android:layout_weight="8"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginBottom="10sp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="@android:color/black"                        android:gravity="center"
+                        android:textSize="25sp"
+                        android:text="Sđt :"
+                        android:layout_weight="2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:enabled="false"
+                        android:id="@+id/txtphoneaddhoadon"
+                        android:textColor="@android:color/black"                        android:textSize="25sp"
+                        android:layout_weight="8"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginBottom="5sp"
+                android:layout_marginTop="5sp"
+                android:textColor="#FFFF"
+                android:gravity="center"
+                android:text="Thêm Hóa đơn"
+                android:textSize="25sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:background="#ffff"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="@android:color/black"                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:text="Hóa đơn :"
+                        android:layout_weight="3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:id="@+id/edthdaddhoadon"
+                        android:textColor="@android:color/black"                        android:textSize="25sp"
+                        android:layout_weight="7"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="@android:color/black"                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:text="Ngày :"
+                        android:layout_weight="3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:id="@+id/edtdateaddhoadon"
+                        android:textColor="@android:color/black"                        android:textSize="25sp"
+                        android:layout_weight="5"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_marginRight="10sp"
+                        android:layout_weight="2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content">
+                        <ImageButton
+                            android:id="@+id/imgbtnaddcal"
+                            android:background="@drawable/ic_calendar_black_24dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:text="Thời gian  :"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/edttimeaddhoadon"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:textColor="@android:color/black"
+                        android:textSize="25sp" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10sp"
+                        android:layout_weight="2"
+                        android:gravity="center">
+
+                        <ImageButton
+                            android:id="@+id/imgbtnaddtime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/ic_clock_black_24dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="@android:color/black"                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:text="Điểm đi :"
+                        android:layout_weight="3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:id="@+id/edtoringinaddhodon"
+                        android:textColor="@android:color/black"                        android:textSize="20sp"
+                        android:layout_weight="7"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="@android:color/black"                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:text="Điểm đến :"
+                        android:layout_weight="3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:id="@+id/edtfinaladdhoadon"
+                        android:textColor="@android:color/black"                        android:textSize="25sp"
+                        android:layout_weight="7"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="@android:color/black"                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:text="Loại hàng :"
+                        android:layout_weight="3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:id="@+id/edtloaiaddhoadon"
+                        android:textColor="@android:color/black"                        android:textSize="25sp"
+                        android:layout_weight="7"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="@android:color/black"                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:text="Ghi chú :"
+                        android:layout_weight="3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:id="@+id/edtnoteaddhoadon"
+                        android:textColor="@android:color/black"                        android:textSize="25sp"
+                        android:layout_weight="7"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginBottom="10sp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="@android:color/black"                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:text="Tổng tiền :"
+                        android:layout_weight="3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <EditText
+                        android:textColor="@android:color/black"                        android:id="@+id/edttienaddhoadon"
+                        android:textSize="25sp"
+                        android:layout_weight="7"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:textColor="#ffff"
+                    android:onClick="btnthemhd"
+                    android:id="@+id/btnaddhoadonnew"
+                    android:background="@android:color/transparent"
+                    android:layout_weight="5"
+                    android:text="Thêm hóa đơn"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:textColor="#ffff"
+                    android:onClick="btnexit"
+                    android:id="@+id/btnthoataddhoadon"
+                    android:background="@android:color/transparent"
+                    android:text="thoát"
+                    android:layout_weight="5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

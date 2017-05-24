@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.kyosh.dacs.information">
+    <TextView
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:id="@+id/txtinformation"
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:text="-----------Đồ Án Cơ Sở-----------"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="phần mềm Quản lý doanh thu \nxe chở hàng"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"
+        android:text="Thành viên :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="35dp"
+        android:textSize="20dp"
+        android:text=" -Nguyễn Lê Anh Khoa \n -Trương Quang Đại"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

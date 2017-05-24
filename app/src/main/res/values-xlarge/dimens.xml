@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="avata_profile">150dp</dimen>
+    <dimen name="avata_item">110dp</dimen>
+    <dimen name="text_size">22dp</dimen>
+    <dimen name="text_sizeorigin">16dp</dimen>
+    <dimen name="text_sizefinal">16dp</dimen>
+    <dimen name="text_bill">40dp</dimen>
+    <dimen name="text_billtitile">26dp</dimen>
+    <dimen name="text_billtt">30dp</dimen>
+    <dimen name="text_billmoney">30dp</dimen>
+    <dimen name="bill_titile">30dp</dimen>
+    <dimen name="bill_button">30dp</dimen>
+    <dimen name="text_addprofile">30dp</dimen>
+    <dimen name="Register">40dp</dimen>
+    <dimen name="text_profile">30dp</dimen>
+    <dimen name="text_profile_titile">25dp</dimen>
+    <dimen name="margin_layoutbill">500dp</dimen>
+    <dimen name="margin_layoutprofile">550dp</dimen>
+</resources>

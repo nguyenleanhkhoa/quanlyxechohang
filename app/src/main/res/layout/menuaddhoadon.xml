@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+            <Button
+                android:paddingLeft="20dp"
+                android:drawableLeft="@drawable/ic_note_add_white_18dp"
+                android:textColor="#FFFF"
+                android:background="#ff22a96e"
+                android:id="@+id/btnaddhd"
+                android:text="Thêm Hóa đơn"
+                android:layout_width="300dp"
+                android:layout_height="60dp" />
+            <Button
+
+                android:paddingLeft="20dp"
+                android:drawableLeft="@drawable/ic_account_edit_white_18dp"
+                android:textColor="#FFFF"
+                android:background="#ff22a96e"
+                android:id="@+id/btnaddeditkh"
+                android:text="Sửa thông tin khách hàng"
+                android:layout_width="300dp"
+                android:layout_height="60sp" />
+
+</LinearLayout>
